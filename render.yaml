@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: busi-find
+    runtime: docker
+    plan: free
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: YELP_API_KEY
+        sync: false
+      - key: FOURSQUARE_API_KEY
+        sync: false

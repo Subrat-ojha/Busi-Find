@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"D:/Busi Find/sources\")",
+      "Bash(mkdir -p \"D:/Busi Find/exports\")",
+      "Bash(pip install:*)",
+      "Bash(py --version)",
+      "Bash(where python:*)",
+      "Bash(where py:*)",
+      "Bash(py -m pip install -r requirements.txt)",
+      "Bash(py:*)",
+      "Bash(where chrome:*)",
+      "Read(//c/Program Files/Google/Chrome/Application/**)",
+      "Read(//c/Program Files \\(x86\\)/Google/Chrome/Application/**)",
+      "Bash(taskkill //F //IM chrome.exe)",
+      "Bash(taskkill //F //IM chromedriver.exe)",
+      "Bash(pkill -f \"py app.py\")",
+      "Bash(pkill -f flask)",
+      "Bash(wmic process:*)",
+      "Bash(ls:*)",
+      "Bash(D:/Busi Find/Scripts/flask.exe:*)",
+      "Bash(\"D:/Busi Find/Scripts/flask.exe\" --app app run --host 0.0.0.0 --port 5000 --debug)",
+      "Bash(\"D:/Busi Find/Scripts/flask.exe\" --app app run --host 0.0.0.0 --port 5000 --no-reload)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:5000/)",
+      "Bash('D:/Busi Find/Scripts/flask.exe' shell -c ':*)",
+      "Bash('D:/Busi Find/Lib/python.exe' -c ':*)",
+      "Bash(\"D:/Busi Find/Scripts/pip3.exe\" --python)",
+      "Bash(\"D:/Busi Find/Scripts/pip3.exe\" show flask)",
+      "Bash(\"D:/Busi Find/Scripts/pip3.exe\" show pip)"
+    ]
+  }
+}
